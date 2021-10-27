@@ -39,6 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             children: [
               Image.asset("assets/image/image 01.jpg"),
+              Image.asset("assets/image/image 02.jpg"),
+              Image.asset("assets/image/image 03.jpg"),
               RaisedButton(
               color: btnColor1,
                 child: Text(btnText1,style:TextStyle(color:btnTextColor1),),
