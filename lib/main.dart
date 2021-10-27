@@ -31,13 +31,14 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.cyan,
         centerTitle: true,
-        title: Text("Ekram Khan",style: TextStyle(color: Colors.black),),
+        title: Text("My First App",style: TextStyle(color: Colors.black),),
       ),
       body:
       SingleChildScrollView(
         child: Center(
           child: Column(
             children: [
+              Image.asset("assets/image/image 01.jpg"),
               RaisedButton(
               color: btnColor1,
                 child: Text(btnText1,style:TextStyle(color:btnTextColor1),),
@@ -50,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
               }),
-              Image.network("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg")
+
             ],
           ),
         ),
